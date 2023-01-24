@@ -11,7 +11,6 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.metadata      = {
     "bug_tracker_uri"   => "https://github.com/just-the-docs/just-the-docs/issues",
-    "changelog_uri"     => "https://github.com/just-the-docs/just-the-docs/blob/main/CHANGELOG.md",
     "documentation_uri" => "https://just-the-docs.github.io/just-the-docs/",
     "source_code_uri"   => "https://github.com/just-the-docs/just-the-docs",
   }

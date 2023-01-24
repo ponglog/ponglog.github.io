@@ -30,7 +30,7 @@ github_username:  ponglog
 
 # Build settings
 # theme: minima
-
+theme: just-the-docs
 permalink: pretty
 
 timezone: Asia/Seoul

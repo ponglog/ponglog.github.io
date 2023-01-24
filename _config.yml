@@ -34,7 +34,12 @@ github_username:  ponglog
 
 # Build settings
 # theme: minima
+
 theme: just-the-docs
+#theme :
+#  title : Type Theme
+#  avatar:
+#  gravatar:
 
 plugins:
   - jekyll-feed

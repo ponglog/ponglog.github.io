@@ -108,11 +108,14 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "ponglog on GitHub":
-    - "//github.com/ponglog/ponglog.github.io"
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+# aux_links:
+#  "ponglog on GitHub":
+#    - "//github.com/ponglog/ponglog.github.io"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+# aux_links_new_tab: false
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil

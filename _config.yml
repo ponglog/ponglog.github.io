@@ -36,8 +36,8 @@ github_username:  ponglog
 # Build settings
 # theme: minima
 
-# theme: just-the-docs
-remote-theme: just-the-docs/just-the-docs
+theme: just-the-docs
+# remote-theme: just-the-docs/just-the-docs
 #theme :
 #  title : Type Theme
 #  avatar:

@@ -1,1 +1,0 @@
-# ponglog.github.io

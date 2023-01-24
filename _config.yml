@@ -36,7 +36,8 @@ github_username:  ponglog
 # Build settings
 # theme: minima
 
-theme: just-the-docs
+# theme: just-the-docs
+remote-theme: just-the-docs/just-the-docs
 #theme :
 #  title : Type Theme
 #  avatar:
@@ -54,6 +55,12 @@ google_analytics:
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
     cache_path:       # the local PV cache data, friendly to visitors from GFW region
+
+#defaults:
+#  - scope:
+#      path: "assets/img"
+#    values:
+#      image: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

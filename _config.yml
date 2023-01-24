@@ -14,12 +14,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: ponglog
-description: ponglog
-# baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
-baseurl: ""
-url: "https://ponglog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+email: hongsi.cat@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  developer, it
+
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ponglog.github.io"
+# the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+github_username:  ponglog
+
+# Build settings
+# theme: minima
 
 permalink: pretty
+
+timezone: Asia/Seoul
+lang: ko
+
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
@@ -159,10 +175,12 @@ callouts:
 plugins:
   - jekyll-seo-tag
 
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
+google_analytics:
+  id: ''              # fill in your Google Analytics ID
+  # Google Analytics pageviews report settings
+  pv:
+    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 compress_html:
   clippings: all
